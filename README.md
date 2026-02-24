@@ -2,6 +2,8 @@
 
 This repository contains the experimental implementation for a study on safe reinforcement learning using the Lunar Lander environment with constraint-based safety mechanisms.
 
+> **Note**: This README was generated with AI assistance (Claude by Anthropic).
+
 ## Overview
 
 This experiment compares unconstrained baseline PPO (Proximal Policy Optimization) with constrained PPO using Lagrangian penalty methods to enforce safety constraints during lunar landing maneuvers.
