@@ -1,0 +1,28 @@
+# Safe RL Lunar Lander Requirements
+# Python 3.10+
+
+# Core RL
+gymnasium>=1.2.0
+stable-baselines3>=2.7.0
+torch>=2.0.0
+
+# Environment (Box2D for LunarLander)
+gymnasium[box2d]>=1.2.0
+
+# Data & Visualization
+numpy>=2.0.0
+pandas>=3.0.0
+matplotlib>=3.7.0
+
+# Configuration
+pyyaml>=6.0
+
+# Testing
+pytest>=7.3.0
+
+# Code Quality
+ruff>=0.1.0
+black>=23.0.0
+
+# Optional: TensorBoard for monitoring
+tensorboard>=2.13.0
